@@ -10,7 +10,7 @@ export function Footer () {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut", delay: 0.5 }}
     >
-      <div className="w-full max-w-7xl mx-auto py-6 flex items-center justify-center px-6 md:px-8">
+      <div className="landing-footer-content w-full max-w-7xl mx-auto py-6 flex items-center justify-center px-6 md:px-8">
         <span className="font-mono text-[10px] text-zinc-600 tracking-wider">
           &copy; 2026 ORGANIZZE. TODOS OS DIREITOS RESERVADOS.
         </span>

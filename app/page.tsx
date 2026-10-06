@@ -4,7 +4,7 @@ import { Footer } from "./components/footer";
 
 export default function Home () {
   return (
-    <div className="min-h-screen w-full relative bg-black overflow-hidden">
+    <div className="landing-page w-full relative bg-black">
       {/* Pearl Mist Background with Top Glow */}
       <div
         className="absolute inset-0 z-0 pointer-events-none"

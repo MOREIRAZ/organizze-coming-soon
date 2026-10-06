@@ -6,7 +6,7 @@ import { motion } from "motion/react";
 export function HeroSection () {
   return (
     <motion.div
-      className="relative z-10 flex items-center justify-center min-h-screen pointer-events-none"
+      className="relative z-10 flex h-full min-h-0 items-center justify-center pointer-events-none"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
